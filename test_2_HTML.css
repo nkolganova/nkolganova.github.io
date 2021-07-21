@@ -1,0 +1,100 @@
+body {
+  padding:0;
+  margin:0;
+  background: #556B2F;
+}
+
+.main-header {
+  padding:0;
+  margin:0;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+
+}
+
+.main-header .container {
+  background: #000000;
+}
+
+.main-navigation {
+  padding:0;
+  margin:0;
+  display: flex;
+  list-style: none;
+
+}
+
+
+.main-navigation li {
+}
+
+.main-navigation a {
+  display: block;
+  padding: 10px 20px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+
+.main-navigation a:hover {
+  background: #565656;
+}
+
+
+.main-logo {
+  padding: 30px 20px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 40px;
+  text-decoration: none;
+  color: #000000;
+  background: #CAA885;
+}
+
+.main-content .container {
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  width: 1080px;
+
+}
+
+.main-content .cards {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  height: 350px;
+}
+
+.main-content .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFACD;
+
+}
+
+.main-content img {
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+
+
+.horizontal_gap {
+  height: 15px;
+  width: 1080px;
+  background: #556B2F;
+}
+
+.vertical_gap {
+  height: 350px;
+  width: 15px;
+  background: #556B2F;
+}
